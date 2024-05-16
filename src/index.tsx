@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Clock } from './components/UseEffectExample';
+import { ImageUploader } from './components/UseRefExample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Clock />
+    <ImageUploader />
   </React.StrictMode>
 );
 
