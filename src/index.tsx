@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { ImageUploader } from './components/UseRefExample';
+import { Input } from './components/CustomHookExample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ImageUploader />
+    <Input />
   </React.StrictMode>
 );
 
